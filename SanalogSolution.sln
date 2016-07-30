@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SanalogOpenSource", "SanalogOpenSource", "{CC4215B0-1EE3-40AA-8DAF-81C6B14F03E4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{2f5077c0-c0ba-4092-8551-d70e17d72789}|ApplicationParameter.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54920"
+		Debug.AspNetCompiler.PhysicalPath = "SanalogOpenSource\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54920\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54920"
+		Release.AspNetCompiler.PhysicalPath = "SanalogOpenSource\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54920\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54920"
+		VWDVirtualPath = "/"
+		SlnRelativePath = "SanalogOpenSource\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationParameterProject", "ApplicationParameterProject\ApplicationParameterProject.csproj", "{2F5077C0-C0BA-4092-8551-D70E17D72789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4215B0-1EE3-40AA-8DAF-81C6B14F03E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4215B0-1EE3-40AA-8DAF-81C6B14F03E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4215B0-1EE3-40AA-8DAF-81C6B14F03E4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4215B0-1EE3-40AA-8DAF-81C6B14F03E4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2F5077C0-C0BA-4092-8551-D70E17D72789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5077C0-C0BA-4092-8551-D70E17D72789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5077C0-C0BA-4092-8551-D70E17D72789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5077C0-C0BA-4092-8551-D70E17D72789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
